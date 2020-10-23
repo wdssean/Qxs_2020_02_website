@@ -1,0 +1,66 @@
+*{
+    font-size: 20px;
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+h1{
+	font-size: 70px;
+}
+h2{
+	font-size: 60px;
+}
+h3{
+	font-size: 50px;
+}
+h4{
+	font-size: 40px;
+}
+h5{
+	font-size: 30px;
+}
+h6{
+	font-size: 20px;
+}
+button{
+    background-color: #E7E7E7;
+    color: black;
+    border: 1px solid #909090;
+    border-radius: 0px;
+    padding: 5px;
+}
+button:hover{
+    background-color: #909090;
+    /* color: white; */
+}
+button:active{
+    background-color: #858585;
+    /* color: white; */
+	border: 1px solid #858585;
+}
+button:focus{
+    outline: none;
+}
+a{
+	text-decoration: none;
+    color:rgb(0, 112, 243);
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(0, 112, 243);
+    cursor: pointer;
+}
+a:active{
+    color:rgb(0,60,191);
+}
+a:focus{
+    color:rgb(0, 112, 243);
+}
+@media screen and (max-width:500px){
+	*{
+		font-size: 50px;
+	}
+}
+/*
+margin
+*/

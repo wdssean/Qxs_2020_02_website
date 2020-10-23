@@ -1,0 +1,40 @@
+.group{
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+.group.column{
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.card{
+	background-color: #f9f9f9;
+	margin: 5px;
+	padding: 5px;
+}
+.nav{
+	background-color: #f9f9f9;
+	position: sticky;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+}
+.nav.fixed{
+	top:0;
+}
+.nav .nav-left{
+	text-align: left;
+	flex: 1;
+	word-break:break-all;
+}
+.nav .nav-center{
+	text-align: center;
+	flex: 1;
+	word-break:break-all;
+}
+.nav .nav-right{
+	text-align: right;
+	flex: 1;
+	word-break:break-all;
+}

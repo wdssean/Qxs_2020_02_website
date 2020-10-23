@@ -1,0 +1,13 @@
+{
+	"special_name_list":[
+		"wangsuyi",
+		"wudaoshi",
+		"zhangqishen"
+	],
+	"name_to_id":{
+		"admin":"0",
+		"wangsuyi":"1",
+		"wudaoshi":"2",
+		"zhangqishen":"3"
+	}
+}
